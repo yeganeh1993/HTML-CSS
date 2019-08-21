@@ -1,0 +1,370 @@
+
+.header {
+  text-align: center;
+  background: #fff;
+  height: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:#01689b;
+  overflow: hidden;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "RO Sans",Calibri,sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  text-decoration-line: underline;
+}
+
+body{
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+.topnav .active{
+  float: left;
+  font-size: 28px;
+
+}
+
+#HeaderPic{
+  width: 1285px;
+  height: 366px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#slideshowpic{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 376px;
+}
+
+
+.taskbar{
+  padding: 15px;
+  float: left;
+  background-color: white;
+  margin-left: 10%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height:310px;
+}
+  
+.link{
+  font-weight: bold;
+  font-family:sans-serif ;
+  width: 350px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #01689b;
+}
+
+.link:hover {
+  text-decoration-line: underline;
+  color: #767676
+}
+.line:visited{
+  color: #767676;
+}
+
+h3{
+  font-size: 25px;
+  color: #025883;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 300px;
+  background: #f1f1f1;
+ 
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 50px;
+  padding: 10px;
+  background: rgb(0, 0, 0);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+ 
+}
+
+form.example button:hover {
+  background: #000000;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+#search{
+  float: right;
+  margin-right: 10%;
+  margin-top: 30px;
+  
+}
+
+#bady{
+  display: flex;
+  flex-direction: column;
+}
+
+.post{
+  display: flex;
+  background-color:#f3f3f3;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+  
+  }
+.content{
+  width: 170px;
+  text-align: left;
+  margin: 20px;
+  
+}
+p{
+  width: 250px;
+}
+
+.test{
+  margin-top: 40px;
+  background-color: #f3f3f3;
+}
+
+li{
+  list-style-type: none;
+}
+p.navItem{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+h3:hover{
+  text-decoration-line: underline;
+}
+
+hr{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+.image{
+  display: flex;
+  flex-direction: row;
+  
+  
+
+ 
+}
+.img{
+  padding: 10px;
+  width: 352px;
+  
+}
+
+.image p, h3{
+  text-align: left;
+  
+  
+}
+.image div{
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+#Nieuws{
+
+  font-size: 2.5em;
+   font-weight: bold;
+   margin-left: 5%;
+}
+
+.news{
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+.news div{
+  
+  margin: 10px;
+  padding: 5px;
+  width: 450px;
+}
+
+.news h3{
+  font-size: 2em;
+}
+
+
+.more{
+  font-size: 25px;
+  margin-left: 5%;
+  margin-top: 20px;
+  
+}
+
+.Pakhar div{
+  border: 6px #cbd2e3 solid;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  width: 500px;
+
+  padding: 10px;
+
+
+}
+.Vragen{
+  color: #767676;
+  font-size: 60px;
+}
+.Pakhar{
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.Rijksoverheid, .Bel{
+  color:black;
+  font-size: 50px;
+}
+.adad{
+  color: #016898;
+  font-size: 72px;
+}
+
+
+.foter{
+  background-color: #01689b;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+
+.servis{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+
+
+
+.over{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+#voor{
+  font-size: 36px;
+  color: white;
+  width: fit-content;
+  
+  margin-right: 300px;
+}
+
+.over p{
+  font-size: 1.7em;
+  color: white;
+}
+
+.over a{
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+.servis p{
+  font-size: 1.7em;
+  color: white;
+  
+}
+
+.servis a{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.servis a:hover{
+  text-decoration-line: underline;
+}
+
+.over a:hover{
+  text-decoration-line: underline;
+}
+
+
+.image div a:hover{
+  text-decoration-line: underline;
+}
+.more:hover{
+  text-decoration-line: underline;
+  }
+
+.languages div ul{
+  display: flex;
+  justify-content: center;
+}
+
+.languages div ul li{
+  border: #01689b 1px solid;
+  padding: 10px;
+  margin: 5px;
+}
